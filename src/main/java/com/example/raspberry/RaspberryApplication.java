@@ -11,16 +11,15 @@ public class RaspberryApplication {
 		SpringApplication.run(RaspberryApplication.class, args);
 		System.out.println("Hello world");
 
-		GpioController controller = GpioFactory.getInstance();
-		GpioPinDigitalOutput pin = controller.provisionDigitalOutputPin(RaspiPin.GPIO_01,"MyLed", PinState.LOW);
 
-		try {
+
+		/*try {
 			for ( int i=0; i<30; i++) {
 				pin.toggle();
 				Thread.sleep(2000);
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 }
