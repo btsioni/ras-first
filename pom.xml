@@ -57,7 +57,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib/</classpathPrefix>
+							<classpathPrefix>/opt/pi4j/lib/</classpathPrefix>
 							<mainClass>com.example.raspberry.RaspberryApplication</mainClass>
 						</manifest>
 					</archive>
